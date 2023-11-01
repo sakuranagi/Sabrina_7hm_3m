@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_picture"
+    tools:context=".MainFragment">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Now Playing"
+        android:textSize="28sp"
+        android:textColor="@color/white"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:layout_gravity="bottom"
+        android:text="Eight (prod Feat. Suga)"
+        android:textSize="34sp"
+        android:layout_marginStart="15dp"
+        android:textStyle="italic"
+        android:layout_marginBottom="68dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="IU"
+        android:textSize="30sp"
+        android:textStyle="italic"
+        android:textColor="@color/white"
+        android:layout_gravity="bottom"
+        android:layout_marginStart="15dp"
+        android:layout_marginBottom="24dp"/>
+</FrameLayout>
